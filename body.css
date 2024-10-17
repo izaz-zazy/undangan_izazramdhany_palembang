@@ -1,0 +1,1039 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #DAD4B5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0;
+    overflow: scroll;
+    overflow-x:  hidden;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .cover{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    height: 20vh;
+  }
+  
+   #atas{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Monaco", monospace;
+  }
+  
+  #nama{
+    font-size: 40px;
+    font-family: "Lucida Handwriting", cursive;
+  }
+  
+  
+  #open-invitation-btn {
+    background-color: transparent;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    width: 20%;
+    color: #721c24;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 80px auto;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+   #open-invitation-btn:hover {
+    background-color: #982B1C;
+    color: black;
+  }
+  
+  #gambarkiri-atas{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: -170px;
+    top: -75px;
+    transform: rotate(50deg);
+  }
+  
+  #gambarkiri-bawah{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: -170px;
+    bottom: 10px;
+    transform: rotate(50deg);  
+  }
+  
+  .kanan{
+    transform: scaleX(-1);
+  }
+  
+  #gambarkanan-atas{
+    position: absolute;
+    bottom: 210px;
+    left: -178px;
+    height: 300px;
+    width: 300px;
+    transform: rotate(50deg)
+  }
+  
+  #gambarkanan-bawah{
+    position: absolute;
+    bottom: -120px;
+    left: -175px;
+    height: 300px;
+    width: 300px;
+    transform: rotate(50deg);
+  }
+ 
+/* batas cover */
+.maincover {
+    position: relative;
+    top: 190px;
+    margin: 5px 90px 5px 90px;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    color: black;
+  }
+
+.motifayat {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 100px;
+  }
+.motifayat2 {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 300px;
+    transform: scaleY(-1);
+  }
+
+.surat {
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.ayat {
+    position: relative;
+    bottom: 380px;
+    right: 20px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.arti {
+    position: relative;
+    top: -290px;
+    margin: -20px 150px 5px 150px;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+.audio-container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX();
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+audio{
+ width: 300px;
+}
+
+.navbar {
+    background-color: #5f1b1b;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 17px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    display: inline-block;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+hr {
+  background-color: #800000;
+  margin: 10px 20px;
+  height: 10px;
+  border-radius: 55px;
+  position: relative;
+  top: -100px ;
+}
+/* batas halaman qoutes */
+
+#profil {
+  position: relative;
+  display: block;
+  top: -100px;
+  text-align: center;
+}
+
+.namaprofil {
+  color: #982B1C;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pria {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.bapak {
+  font-size: 25px;
+  color: black;
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.logoinstagram {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-top: 10px;
+  right: 40px;
+}
+
+.logotiktok {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-top: 10px;
+  left: 40px;
+}
+ 
+/* batas profil */
+
+#tanggal {
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  font-family: "Reddit Sans Condensed", sans-serif;
+  top: -400px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+#bungapojokkanan{
+  position: relative;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  top: -120px;
+  right: -970px;
+  z-index: -1;
+  transform: scaleX(-1);
+}
+
+#bungapojokkiri{
+  position: relative;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  bottom: -670px;
+  left: -320px;
+  z-index: -1;
+  transform: scaleY(-1)
+}
+
+.akad {
+  font-family: "Montserrat", sans-serif;
+}
+
+iframe {
+  position: relative;
+  display: inline;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+
+/* batas acara */
+
+.gallery {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.gallery-baris {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.gallery-item {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#video {
+  position: relative;
+  margin: 10px;
+  top: 100px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border: 10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1) ;
+}
+
+.gallery::-webkit-scrollbar{
+  display: none;
+}
+
+.gallery {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.story {
+  position: relative;
+  display: block;
+  top: -100px;
+  text-align: center; 
+  font-family:  "Montserrat", sans-serif;
+  color: black;
+}
+
+/* batas gallery */
+
+#bersama {
+  height: 200px;
+  width: 200px;
+}
+
+.cerita {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 15px;
+  word-spacing: -9;
+  font-family: "Roboto", sans-serif;
+}
+
+/* batas story */
+
+table {
+  position: relative;
+  bottom: 100px;
+  width: 100%;
+  border-collapse: collapse;
+
+}
+th, td {
+  border: 1px solid #800000;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #800000;
+}
+.special {
+  font-weight: bold;
+}
+
+/* batas tamu khusus */
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Margin sedikit lebih besar */
+  font-weight: normal; /* Mengurangi kekuatan font untuk kesan santai */
+  font-size: 1em;
+  color: #982B1C; /* Warna teks label */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px; /* Padding lebih besar */
+  border: 1px solid #982B1C; /* Border dengan warna teks utama */
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 12px; /* Margin lebih besar */
+  font-size: 1em; /* Ukuran font normal */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Font yang lebih santai */
+  background-color: #fff; /* Latar belakang putih untuk input */
+  color: #982B1C; /* Warna teks di input */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px; /* Margin sedikit lebih besar */
+}
+
+fieldset {
+  border: 1px solid #982B1C; /* Border dengan warna teks utama */
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #F0EBD0; /* Latar belakang lebih ringan untuk fieldset */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05); /* Bayangan untuk efek tulisan tangan */
+}
+
+legend {
+  font-weight: normal; /* Mengurangi kekuatan font */
+  color: #982B1C; /* Warna teks legend */
+  font-size: 1.1em;
+}
+
+button {
+  background-color: #800000; /* Warna latar belakang tombol kirim */
+  color: #fff; /* Warna teks tombol */
+  border: none;
+  padding: 10px 20px; /* Padding lebih besar */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Font yang lebih santai */
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek tombol yang lebih personal */
+}
+
+button:hover {
+  background-color: #660000; /* Warna latar belakang tombol saat hover */
+}
+
+#notifikasi {
+  margin-top: 10px; /* Memberikan sedikit ruang antara tombol dan notifikasi */
+  padding: 10px;
+  background-color: #DAD4B5; /* Latar belakang notifikasi */
+  color: #800000; /* Warna teks notifikasi */
+  border: 1px solid #800000; /* Border dengan warna baru */
+  border-radius: 4px;
+  display: none; /* Sembunyikan secara default */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Font yang lebih santai */
+}
+
+
+
+/* batas rsvp */
+
+.gift {
+  padding: 40px;
+  background-color: #DAD4B5;
+}
+
+.gift-font {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #800000;
+  font-family:  "Montserrat", sans-serif;
+}
+
+.opsi-gift{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.opsii-gift {
+  width: 45%;
+  background-color: #DAD4B5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gift-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.bank-info, .address-info {
+  text-align: left;
+}
+
+.copy-text {
+  background-color: #800000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.copy-text:hover {
+  background-color: #600000;
+}
+
+/* batas kirim hadiah */
+
+.pesan-section {
+  padding: 20px;
+}
+.notification {
+  margin-top: 10px; /* Beri jarak antara tombol dan notifikasi */
+  padding: 10px;
+  background-color: #DAD4B5; /* Latar belakang notifikasi */
+  color: #800000; /* Warna teks notifikasi */
+  border: 1px solid #800000; /* Border dengan warna baru */
+  border-radius: 4px;
+  display: none; /* Awalnya disembunyikan */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Font yang lebih santai */
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form-group button {
+  background-color: #800000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: #760101;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.pesan-form {
+  background-color: #800000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #800000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #800000;
+}
+
+/* batas kirim doa */
+
+#akhir {
+  position: relative;
+  bottom: 50px;
+  display: block;
+  margin: auto;
+  padding: auto;
+}
+
+  @media (max-width: 760px) {
+
+    h2 {
+      text-align: center;
+      color: #982B1C;
+      font-family:  "Montserrat", sans-serif;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+    }
+
+    .cover{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      padding-top: 60px;
+      padding-bottom: 30px;
+      height: 20vh;
+    }
+    
+    #atas{
+      font-size: 20px;
+      text-align: center;
+      font-family: "Monaco", monospace;
+    }
+    
+    #nama{
+      font-size: 40px;
+      font-family: "Lucida Handwriting", cursive;
+    }
+    
+    
+    #open-invitation-btn {
+      background-color: transparent;
+      border: 2px solid rgba(255, 0, 0, 0.5);
+      width: 20%;
+      color: #721c24;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      font-size: 20px;
+      margin: 80px auto;
+      cursor: pointer;
+      border-radius: 50px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    #open-invitation-btn:hover {
+      background-color: darkred; /* Warna berubah menjadi merah tua */
+      color: black;
+    }
+    
+    #gambarkiri-atas{
+      height: 300px;
+      width: 300px;
+      position: absolute;
+      left: -170px;
+      top: -75px;
+      transform: rotate(50deg);
+    }
+    
+    #gambarkiri-bawah{
+      height: 300px;
+      width: 300px;
+      position: absolute;
+      left: -170px;
+      bottom: 100px;
+      transform: rotate(50deg);  
+    }
+    
+    .kanan{
+      transform: scaleX(-1);
+    }
+    
+    #gambarkanan-atas{
+      position: absolute;
+      bottom: 210px;
+      left: -178px;
+      height: 300px;
+      width: 300px;
+      transform: rotate(50deg)
+    }
+    
+    #gambarkanan-bawah{
+      position: absolute;
+      bottom: -120px;
+      left: -175px;
+      height: 300px;
+      width: 300px;
+      transform: rotate(50deg);
+    }
+
+    /* batas cover */
+
+    .maincover {
+      position: relative;
+      top: 200px;
+      margin: 5px 90px 5px 90px;
+      font-family: "Reddit Sans Condensed", sans-serif;
+      color: black;
+    }
+
+    .motifayat {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 150px;
+      }
+      .motifayat2 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 300px;
+        transform: scaleY(-1);
+      }
+    
+      .surat {
+        position: relative;
+        bottom: 390px;
+        text-align: center;
+        font-size: 20px;
+        margin: -10px 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    
+      .ayat {
+        position: relative;
+        bottom: 380px;
+        right: 10px;
+        margin-top: -5px;
+        padding-top: 10px;
+        text-align: right;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    
+      .arti {
+        position: relative;
+        top: -330px;
+        margin: 0px -5px;
+        text-align: justify;
+        word-spacing: -8px;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .audio-container {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX();
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+      }
+
+      audio{
+        width:300px;
+      }
+      
+      /* batas qoutes */
+
+      #profil {
+        position: relative;
+        display: block;
+        top: -100px;
+        text-align: center;
+      }
+      
+      .namaprofil {
+        color: #982B1C;
+        font-size: 35px;
+        font-family: "Montserrat", sans-serif;
+      }
+      
+      .pria {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+      }
+      
+      .bapak {
+        font-family: "Roboto", sans-serif;
+        font-size: 25px;
+        color: black;
+        margin: 10px 0;
+      }
+      
+      .logoinstagram {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        margin-top: 10px;
+        right: 40px;
+      }
+      
+      .logotiktok {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        margin-top: 10px;
+        left: 40px;
+      }
+       
+      /* batas profil */
+      
+      #tanggal {
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        left: 50px;
+        justify-content: center;
+        justify-items: center;
+        font-family: "Reddit Sans Condensed", sans-serif;
+        top: -500px;
+        text-align: center;
+        font-size: 25px;
+      }
+      
+      #bungapojokkanan{
+        position: relative;
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+        top: -100px;
+        right: -170px;
+        z-index: -1;
+        transform: scaleX(-1);
+      }
+      
+      #bungapojokkiri{
+        position: relative;
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+        bottom: -400px;
+        left: -40px;
+        z-index: -1;
+        transform: scaleY(-1)
+      }
+
+      .akad {
+        font-family: "Montserrat", sans-serif;
+      }
+      
+      iframe {
+        position: relative;
+        display: inline;
+        align-items: center;
+        height: 300px;
+        width: 300px;
+      }
+      
+      /* batas acara */
+
+      .gallery {
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        display: flex;
+        max-width: 100vw;
+        margin: 0 auto;
+        padding: 10px 0;
+      }
+      
+      .gallery-baris {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      
+      .gallery-item {
+        position: relative;
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+
+      #video {
+        position: relative;
+        top: 100px;
+        flex: 0 0 100%;
+        bottom: 1;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      
+      .gallery-item img {
+        width: 100%;
+        height: auto;
+        border: 10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.1) ;
+      }
+      
+      .gallery::-webkit-scrollbar{
+        display: none;
+      }
+      
+      .gallery {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      
+      /* batas gallery */
+
+      .story {
+        position: relative;
+        display: block;
+        top: -100px;
+        text-align: center; 
+        font-family:  "Montserrat", sans-serif;
+        color: black;
+      }
+      
+      .cerita {
+        font-size: 20px;
+        text-align: justify;
+        margin: 20px 15px;
+        word-spacing: -9;
+        font-family: "Roboto", sans-serif;;
+      }
+      
+      /* batas story */
+
+      table {
+        position: relative;
+        bottom: 100px;
+        width: 100%;
+        border-collapse: collapse;
+      
+      }
+      th, td {
+        border: 1px solid #800000;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #800000;
+      }
+
+      .special {
+        font-weight: bold;
+      }
+      
+       /* batas tamu khusus */
+
+      input[type="text"],
+      input[type="number"],
+      input[type="email"],
+      select,
+      textarea {
+          font-size: 0.9em;
+      }
+  
+      button {
+          font-size: 0.9em;
+          padding: 8px 16px;
+      }
+    
+    button {
+        padding: 10px;
+        background-color: #800000;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }    
+
+    /* batas rsvp */
+
+      .opsii-gift {
+        width: 100%;
+      }
+
+      .navbar {
+        background-color: #5f1b1b;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navbar ul li {
+      display: inline-block;
+      margin: 0 17px;
+    }
+    
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+    }
+    
+    .navbar ul li a:hover {
+        background-color: #575757;
+    }
+  }
